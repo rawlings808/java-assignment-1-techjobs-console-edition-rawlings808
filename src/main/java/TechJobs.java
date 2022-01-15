@@ -123,11 +123,11 @@ public class TechJobs {
             System.out.println("No Results");
         } else {
             for (HashMap<String, String> job : someJobs) {
-                System.out.println("*****");
+                System.out.println("\n*****");
                 for (Map.Entry<String, String> row : job.entrySet()) {
                     System.out.println(row.getKey() + ": " + row.getValue());
                 }
-                System.out.println("*****\n");
+                System.out.println("*****");
 //        System.out.println("printJobs is not implemented yet");
             }
         }
