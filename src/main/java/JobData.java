@@ -80,9 +80,9 @@ public class JobData {
                 jobs.add(row);
             }
         }
-        if (jobs.isEmpty()) {
-            System.out.println("No Results");
-        }
+//        if (jobs.isEmpty()) {
+//            System.out.print("No Results");
+//        }
 
         return jobs;
     }
@@ -118,9 +118,9 @@ public class JobData {
                 }
             }
         }
-        if (jobs.isEmpty()) {
-            System.out.println("No Results");
-        }
+//        if (jobs.isEmpty()) {
+//            System.out.print("No Results");
+//        }
         return jobs;
     }
 
